@@ -19,7 +19,7 @@ const Hero = () => {
             CONSULTANT EYE SERGEON
           </p>
           <h2 className="text-5xl md:text-7xl font-bold text-white">
-            Hi, I’m <span className="text-designColor">William Lina</span>
+            Hi, I’m <span className="text-designColor">Jenifer Christin</span>
           </h2>
           <h2 className="text-2xl md:text-4xl font-bold text-white">
             a{" "}
