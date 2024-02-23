@@ -56,14 +56,14 @@ const ContactMe = () => {
   };
 
   return (
-    <section name="contact">
+    <section name="contact" className="px-4">
       <Container className="border-b border-black">
         <div className="flex flex-col items-center">
           <Subtitle title="Contact" />
           <Title title="Contact With Me" />
         </div>
-        <div className="flex gap-10 pt-10">
-          <div className="w-1/3 bg-stone-950/50 p-10 rounded-lg group">
+        <div className="flex flex-col md:flex-row gap-10 pt-10">
+          <div className="w-full md:w-1/3 bg-stone-950/50 p-10 rounded-lg group">
             <div className="overflow-hidden rounded-lg">
               <img
                 src={contact1}
@@ -88,7 +88,7 @@ const ContactMe = () => {
             </div>
             <SocialIcon />
           </div>
-          <div className="w-2/3 bg-stone-950/50 p-10 rounded-lg ">
+          <div className="w-full md:w-2/3 bg-stone-950/50 p-10 rounded-lg ">
             {!loading && success && (
               <div className="h-full flex flex-col items-center justify-center">
                 <p className="text-2xl text-green-300 font-semibold mb-5">
@@ -130,7 +130,7 @@ const ContactMe = () => {
                     <p>{err}</p>
                   </div>
                 )}
-                <div className="flex justify-between gap-7">
+                <div className="flex flex-col md:flex-row justify-between gap-7">
                   <div className="flex flex-1 flex-col gap-3 relative">
                     <p className="text-sm uppercase">Your name</p>
                     <input

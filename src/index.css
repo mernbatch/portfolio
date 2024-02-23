@@ -12,6 +12,6 @@
     @apply bg-stone-800 w-10 h-10 inline-flex text-white text-base justify-center items-center rounded-md hover:text-designColor duration-500 hover:-translate-y-2 hover:bg-black shadow-md shadow-gray-200/10 hover:shadow-designColor/10;
   }
   .inputStyle {
-    @apply rounded-md bg-black text-white px-6 py-2  outline-none border border-lightText placeholder:text-gray-500 focus-within:border-designColor duration-300;
+    @apply rounded-md bg-black text-white px-6 py-2  outline-none border border-teal-500 placeholder:text-gray-500 focus-within:border-designColor duration-300;
   }
 }

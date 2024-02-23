@@ -12,16 +12,16 @@ const Hero = () => {
   ];
 
   return (
-    <section name="hero" className="w-full bg-hero-image bg-cover">
-      <Container className="py-20">
-        <div className="w-1/2 flex flex-col gap-y-5">
-          <p className="text-base uppercase text-lightText">
+    <section name="hero" className="w-full bg-hero-image bg-cover bg-center">
+      <Container className="py-20 px-4">
+        <div className="w-full md:w-1/2 flex flex-col gap-y-5">
+          <p className="text-sm md:text-base uppercase text-lightText">
             CONSULTANT EYE SERGEON
           </p>
-          <h2 className="text-7xl font-bold text-white">
+          <h2 className="text-5xl md:text-7xl font-bold text-white">
             Hi, I’m <span className="text-designColor">William Lina</span>
           </h2>
-          <h2 className="text-4xl font-bold text-white">
+          <h2 className="text-2xl md:text-4xl font-bold text-white">
             a{" "}
             <Typewriter
               words={words}

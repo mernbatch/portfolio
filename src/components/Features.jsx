@@ -54,11 +54,11 @@ const Features = () => {
   //   },
   // ];
   return (
-    <section name="services">
-      <Container className="border-b border-black flex flex-col gap-7">
+    <section name="services" className="px-4">
+      <Container className="border-b border-black flex flex-col items-center md:items-start gap-7">
         <Subtitle title="Features" />
         <Title title="What I Do" />
-        <div className="grid grid-cols-3 gap-x-5 gap-y-7">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-7">
           {featuresData.map((item) => (
             <FeatureCard key={item.id} item={item} />
           ))}

@@ -7,7 +7,7 @@ import SocialIcon from "./ui/SocialIcon";
 const Footer = () => {
   return (
     <div className="bg-primaryColor">
-      <Container className="flex items-center text-lightText justify-between py-5">
+      <Container className="flex flex-col md:flex-row gap-5 items-center text-lightText justify-between py-5">
         <img src={logo} alt="logo" className="w-24" />
         <p className="text-sm lowercase hover:text-white duration-300 ">
           All rights reserved @me

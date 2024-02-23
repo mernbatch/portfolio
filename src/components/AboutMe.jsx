@@ -7,10 +7,10 @@ import Title from "./ui/Title";
 
 const AboutMe = () => {
   return (
-    <section name="about">
-      <Container className="flex justify-between ">
+    <section name="about" className="px-4">
+      <Container className="flex flex-col gap-10 md:gap-0 md:flex-row justify-between">
         {/* Left part */}
-        <div className="w-[35%] bg-[#212428] p-10 rounded-lg shadow-md shadow-black overflow-hidden group">
+        <div className="w-full md:w-[35%] bg-[#212428] p-10 rounded-lg shadow-md shadow-black overflow-hidden group">
           <div className="h-[500px] overflow-hidden rounded-md">
             <img
               src={AboutMeImg}
@@ -20,7 +20,7 @@ const AboutMe = () => {
           </div>
         </div>
         {/* Right part */}
-        <div className="w-[55%] flex flex-col justify-center gap-7">
+        <div className="w-full md:w-[55%] flex flex-col justify-center gap-7">
           <Subtitle title="About me" />
           <Title title="Dr. Laura Jerry" />
           <p>

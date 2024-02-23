@@ -16,7 +16,7 @@ const Portfolio = () => {
           <Subtitle title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK" />
           <Title title="My Portfolio" />
         </div>
-        <div className="grid grid-cols-3 gap-10 pt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-10">
           {portfolioData.map((item) => (
             <PortfolioCard key={item.id} item={item} />
           ))}
