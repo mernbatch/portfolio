@@ -14,4 +14,7 @@
   .inputStyle {
     @apply rounded-md bg-black text-white px-6 py-2  outline-none border border-teal-500 placeholder:text-gray-500 focus-within:border-designColor duration-300;
   }
+  .resumeTab {
+    @apply w-1/4 bg-gradient-to-tr from-primaryColor  to-gray-300/10 py-5 rounded-md text-center text-lg font-semibold cursor-pointer shadow-lg shadow-gray-200/10 hover:text-designColor duration-200;
+  }
 }
